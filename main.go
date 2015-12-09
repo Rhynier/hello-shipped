@@ -8,7 +8,7 @@ import (
 func defaultHandler(w http.ResponseWriter, r *http.Request) {
     fmt.Fprintf(w, "<h1>Hello from Cisco Shipped!</h1>\n")
     fmt.Fprint(w, "<h2>Brought to you by Rhynier Myburgh using the power of Go!</h2>\n")
-    fmt.Fprintf(w, "<p>Version 0.1</p>\n")
+    fmt.Fprintf(w, "<p>Version 0.2</p>\n")
 }
 
 func main() {
